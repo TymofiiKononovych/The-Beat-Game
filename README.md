@@ -1,113 +1,141 @@
-Untitled Beat Game
+# 🎵 Untitled Beat Game
 
-A rhythm game written in Python using Pygame that automatically generates beat maps from audio files. The project analyzes music, detects beats and onsets, creates a synchronized note chart, and lets the player play the song in a four-lane rhythm game.
+Untitled Beat Game is a simple rhythm game built with Python and Pygame. The game can automatically generate beatmaps from audio files using music analysis, allowing players to load their favorite songs and play them in a four-lane rhythm challenge.
 
-Features
-Automatic beat map generation from audio files
-BPM and onset detection using Librosa
-Multiple difficulty levels (Easy, Normal, Hard)
-Four-lane rhythm gameplay
-Timing-based scoring system
-Accuracy calculation
-Custom song support (.mp3, .wav, .ogg)
-Controls
-Key	Lane
-A	Left
-S	Left Center
-W	Right Center
-D	Right
-Requirements
-Python 3.10+
-Pygame
-Librosa
-NumPy
-Installation
+⚠️ This project is created for educational and fun purposes.
+
+## ✨ Features
+
+* Automatic beatmap generation from audio files
+* BPM and beat detection
+* Multiple difficulty levels (Easy, Normal, Hard)
+* Four-lane rhythm gameplay
+* Accuracy and scoring system
+* Custom song support (.mp3, .wav, .ogg)
+* Automatic beatmap regeneration for outdated maps
+* Simple and user-friendly interface
+
+## 🛠 Technologies Used
+
+* Python 🐍
+* Pygame
+* Librosa
+* NumPy
+* Tkinter
+
+## ▶️ How to Run
+
+Make sure Python is installed.
+
+Install required libraries:
+
+```bash
 pip install pygame librosa numpy
-How to Run
+```
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/Untitled-Beat-Game.git
+```
+
+Run the game:
+
+```bash
 python PolisosFifow.py
-Click Pick a Song
-Select an audio file
-Press Start Game
-The game will automatically generate a beat map if one does not exist
-Play using A, S, W, and D
-Scoring
-Sick – Perfect hit
-Good – Great timing
-Norm – Acceptable timing
-Bad – Late/Early hit
-Miss – No hit
+```
 
-The game calculates accuracy based on all notes hit and missed.
+## 🖥 Controls
 
-Project Structure
-PolisosFifow.py      # Main launcher
-BeatGameMenu.py      # Main menu
-BeatsMaker.py        # Beat map generator
-UntitledBeatGame.py  # Gameplay logic
-Future Plans
-Hold notes
-Better visual effects
-Song selection improvements
-Online leaderboard
-Additional game modes
-README (Русский)
-Untitled Beat Game
+| Key   | Action          |
+| ----- | --------------- |
+| A     | Left Lane       |
+| S     | Second Lane     |
+| W     | Third Lane      |
+| D     | Right Lane      |
+| Mouse | Menu Navigation |
 
-Ритм-игра на Python и Pygame, которая автоматически создаёт карты нот на основе музыкальных файлов. Проект анализирует аудио, определяет удары и ритм композиции, создаёт синхронизированную карту и позволяет играть в четырёхполосную ритм-игру.
+## 🎯 Purpose
 
-Возможности
-Автоматическая генерация карт нот
-Определение BPM и ударов через Librosa
-Несколько уровней сложности (Easy, Normal, Hard)
-Четыре игровые дорожки
-Система оценки по таймингу
-Подсчёт точности (Accuracy)
-Поддержка собственных песен (.mp3, .wav, .ogg)
-Управление
-Клавиша	Дорожка
-A	Левая
-S	Лево-центр
-W	Право-центр
-D	Правая
-Требования
-Python 3.10+
-Pygame
-Librosa
-NumPy
-Установка
+This project was created to:
+
+* learn game development with Pygame
+* practice audio analysis with Librosa
+* experiment with rhythm game mechanics
+* generate beatmaps automatically from music
+* build a complete desktop game project
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+# 🎵 Untitled Beat Game
+
+Untitled Beat Game — это простая ритм-игра, созданная на Python и Pygame. Игра умеет автоматически генерировать карты нот из музыкальных файлов с помощью анализа аудио, позволяя загружать собственные песни и проходить их в формате четырёхполосной ритм-игры.
+
+⚠️ Проект создан в учебных и развлекательных целях.
+
+## ✨ Возможности
+
+* Автоматическая генерация карт нот из музыки
+* Определение BPM и ритма композиции
+* Несколько уровней сложности (Easy, Normal, Hard)
+* Четыре игровые дорожки
+* Система подсчёта очков и точности
+* Поддержка собственных песен (.mp3, .wav, .ogg)
+* Автоматическое обновление устаревших карт
+* Простой и понятный интерфейс
+
+## 🛠 Используемые технологии
+
+* Python 🐍
+* Pygame
+* Librosa
+* NumPy
+* Tkinter
+
+## ▶️ Как запустить
+
+Убедитесь, что Python установлен.
+
+Установите необходимые библиотеки:
+
+```bash
 pip install pygame librosa numpy
-Запуск
+```
+
+Клонируйте репозиторий:
+
+```bash
+git clone https://github.com/your-username/Untitled-Beat-Game.git
+```
+
+Запустите игру:
+
+```bash
 python PolisosFifow.py
-Нажмите Pick a Song
-Выберите музыкальный файл
-Нажмите Start Game
-Если карты нет, она будет создана автоматически
-Играйте клавишами A, S, W и D
-Система оценок
-Sick — идеальное попадание
-Good — очень хорошее попадание
-Norm — нормальное попадание
-Bad — плохое попадание
-Miss — промах
+```
 
-Точность рассчитывается на основе всех попаданий и промахов.
+## 🖥 Управление
 
-Структура проекта
-PolisosFifow.py      # Запуск проекта
-BeatGameMenu.py      # Главное меню
-BeatsMaker.py        # Генератор карт
-UntitledBeatGame.py  # Игровая логика
-Планы на будущее
-Длинные ноты (Hold Notes)
-Улучшенные визуальные эффекты
-Более удобный выбор песен
-Онлайн-таблица рекордов
-Новые игровые режимы
+| Клавиша | Действие          |
+| ------- | ----------------- |
+| A       | Левая дорожка     |
+| S       | Вторая дорожка    |
+| W       | Третья дорожка    |
+| D       | Правая дорожка    |
+| Мышь    | Навигация по меню |
 
-GitHub short description:
+## 🎯 Цель проекта
 
-English:
-Python rhythm game with automatic beatmap generation from audio files using Librosa and Pygame.
+Проект создан для того, чтобы:
 
-Русский:
-Ритм-игра на Python с автоматической генерацией карт нот из музыкальных файлов с помощью Librosa и Pygame.
+* изучить разработку игр на Pygame
+* освоить анализ аудио с помощью Librosa
+* поэкспериментировать с механиками ритм-игр
+* научиться автоматически генерировать карты нот
+* создать полноценный игровой проект на Python
+
+## 📄 Лицензия
+
+Проект распространяется по лицензии MIT.
